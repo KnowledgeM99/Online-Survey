@@ -41,8 +41,6 @@ function Registration() {
     <div className="container">
       <form onSubmit={handleSubmit} className="form">
         <h6 style={{ textAlign: "center", color: "dark green" }}>Register</h6>
-
-        {e && <p className="e">{e}</p>}
         <label>
           Username:
           <input
