@@ -12,18 +12,14 @@ class Calendar extends Component {
 
     const weekdaysShort = moment.weekdaysShort();
 
-    // get current month and year
     const month = () => dateObject.format("MMMM");
     const year = () => dateObject.format("Y");
 
-    // get number of days in current month
     const daysInMonth = () => dateObject.daysInMonth();
 
-    // get the first day of the month
     const firstDayOfMonth = () =>
       moment(dateObject).startOf("month").format("d");
 
-    // render calendar days
     let blanks = [];
     for (let i = 0; i < firstDayOfMonth(); i++) {
       blanks.push(
