@@ -1,0 +1,30 @@
+.survey-list {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .survey-list th, .survey-list td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .survey-list th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .export-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
